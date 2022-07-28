@@ -1,0 +1,34 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.heading1{
+    position: relative;
+    font-size: 250px;
+    margin-left: 40px;
+    letter-spacing: 10px;
+    color: '#460101';
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 8px; 
+    -webkit-text-stroke-color: '#460101';
+    opacity: 20%;
+    padding: 0;
+}
+
+.heading2{
+    position: relative;
+    font-size: 250px;
+    text-align: right;
+    letter-spacing: 20px;
+    top: 200px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 60px;
+    text-overflow: hidden;
+    z-index: 5;
+}
