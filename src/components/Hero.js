@@ -7,7 +7,7 @@ const Hero = () => {
 	return (
 		<div className='h-[38rem] bg-gradient-to-r from-red-600 to-black'>
 			<div className='w-full h-[38rem] bg-gradient-to-r from-red-800 to-transparent'>
-				<NavBar />
+				{/* <NavBar /> */}
 				<div className='cont'>
 					<h1 className='heading1'>Powered</h1>
 					<h1 className='heading2'>Gym</h1>

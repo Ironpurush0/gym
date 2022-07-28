@@ -1,12 +1,11 @@
 import Hero from "./components/Hero";
 
-import SearchBar from "./components/SearchBar";
-import GymList from "./components/GymList";
-import Footer from "./components/Footer";
-
-import Section from "./components/Section";
-
 import useData from "./hooks/useData";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Details from "./pages/Details";
 
 function App() {
 	const { data, loading } = useData(
@@ -15,17 +14,7 @@ function App() {
 
 	return (
 		<div className='bg-[#131313] max-w-screen max-h-full'>
-			<Hero />
-			<div className='flex flex-col text-white  md:container md:mx-auto h-auto'>
-				<div>
-					<SearchBar />
-				</div>
-				<GymList data={data} loading={loading} />
-			</div>
-			<div className='border'>
-				<Section />
-			</div>
-			<Footer />
+			<Home data={data} loading={loading} />
 		</div>
 	);
 }

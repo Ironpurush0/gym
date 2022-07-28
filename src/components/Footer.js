@@ -13,9 +13,9 @@ const Footer = () => {
 		<div className='md:container h-[32rem] md:mx-auto '>
 			<div className='w-full flex h-full'>
 				<div className='flex-1 flex justify-center '>
-					<div className='my-12 w-full'>
+					<div className='my-16 w-full'>
 						<p className='text-6xl text-white text-center font-bold'>WTF</p>
-						<div className='w-full flex my-12 items-center justify-evenly p-4'>
+						<div className='w-full flex my-16 items-center justify-evenly p-4'>
 							<span className='bg-white rounded-full p-2'>
 								<BsInstagram className='w-8 h-8' />
 							</span>
@@ -29,7 +29,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='flex-1  flex flex-col text-white'>
-					<p className='text-left text-4xl font-bold my-12'>Quick Links</p>
+					<p className='text-left text-4xl font-bold my-16'>Quick Links</p>
 					<ul className='text-xl text-gray-300 p-2'>
 						<li className='py-2'>About</li>
 						<li className='py-2'>FAQs</li>
@@ -39,7 +39,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className='flex-1  text-white'>
-					<p className='text-left text-4xl font-bold my-12'>Explore</p>
+					<p className='text-left text-4xl font-bold my-16'>Explore</p>
 					<ul className='text-xl text-gray-300 p-2'>
 						<li className='py-2'>Arenas</li>
 						<li className='py-2'>Studios</li>
@@ -47,7 +47,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className='flex-1  text-white'>
-					<p className='text-left text-4xl font-bold my-12'>Contact</p>
+					<p className='text-left text-4xl font-bold my-16'>Contact</p>
 					<ul className='text-xl text-gray-300 p-2'>
 						<li className='py-4 flex items-center'>
 							<ImLocation className='text-white w-12 h-12 mr-8' />

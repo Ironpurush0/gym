@@ -3,10 +3,15 @@ import React from "react";
 import { GoSearch } from "react-icons/go";
 import { MdArrowDropDown } from "react-icons/md";
 
+import Dropdown from "./Dropdown";
+
 const Filter = () => {
 	return (
 		<div className='p-5 max-h-screen'>
-			<h1 className='text-4xl font-semibold'>Filters</h1>
+			<div className='flex items-center justify-between'>
+				<h1 className='text-4xl font-semibold'>Filters</h1>
+				<button className='bg-red-800 text-xl py-1 rounded px-3'>Reset</button>
+			</div>
 			<div className='flex flex-col my-4'>
 				<div className='my-2 p-4'>
 					<p className='text-xl mb-4 font-semibold'>Location</p>
@@ -41,6 +46,7 @@ const Filter = () => {
 							Select cities
 							<MdArrowDropDown />
 						</button>
+						{/* <Dropdown /> */}
 					</span>
 				</div>
 			</div>
